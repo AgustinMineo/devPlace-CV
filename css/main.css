@@ -1,4 +1,190 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(39, 99, 91);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 55px;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    z-index: 1;
+}
+.nav ul {
+    width: 100%;
+}
+.lista >li >span :hover{
+    color: rgb(198, 233, 145);
+}
+
+.lista >li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid none;
+    list-style-type: none;
+    width: 100%;
+    height: 75px;
+    font-size: 14px;
+    border: 1px solid rgb(241,240,245);
+}
+.lista li:first-child{
+    border-top: 1px solid rgb(90deg, rgba(241,240,245,1) 0%, rgba(234,234,255,1) 6%, rgba(0,0,0,1) 100%);
+    border-radius: 4% 4% 0px 0px;
+}
+.lista li:last-child{
+    border-bottom: 1px solid none;
+    border-radius: 0px 0px 4% 4%;
+}
+.selector{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    height: 70px;
+    border: 1px solid none;
+    border-radius: 4%;
+    align-items: center;
+    justify-content: center;
+}
+.imagen{
+    position: relative;
+    left: 25px;
+    width: 600px;
+    height: 570px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: 1px solid none;
+    border-radius: 2% 2% 0px 0px;
+    z-index: 1;
+    margin: 20px 0px 0px 30px;
+    padding: 0;
+}
+.personal-info{
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+    margin-top: 230px;
+    background-color: white;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.icons ul{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.icons ul > li{
+    width: 8%;
+    margin: 2px 0 2px 30px;
+    list-style-type: none;
+}
+.button-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid rgb(241,240,245);
+}
+.button-card > input{
+    width: 50%;
+    height: 100%;
+    border: none;
+    border-left: 1px solid rgb(241,240,245);
+    background-color: white;
+}
+.button-card > input:hover{
+    cursor: pointer;
+}
+.card{
+    position: relative;
+    right: 27px;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    height: 650px;
+    margin: 30px 0px 0px 15px;
+    background-color: rgb(70, 189, 153);
+    border: 1px solid none;
+    border-radius: 2% 0px 0px 0px;
+}
+.names{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+}
+.names >h3{
+    display: flex;
+    color: rgb(127, 172, 61);
+    margin: -15px;
+}
+.names >h3:hover{
+    cursor: pointer;
+}
+.mainPanel{
+    position: absolute;
+    left: 800px;
+    top: 120px;
+    width: 45%;
+    height: 78%;
+    background-color: white;
+}
+.mainPanel  article{
+    margin-left: 15px;
+}
+.greenName{
+    color: green; 
+}
+.principal{
+    padding: 10px 0px 6px 30px;
+    border: 1px solid rgb(241,240,245);
+}
+.my-service{
+    width: 50%;
+    height: 100%;
+    border: none;
+    height: 150px;
+    border-left: 1px solid rgb(241,240,245);
+    background-color: white;
+}
+.my-service > input{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C850C0;
+    border: 0;
+}
+.mainData{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainData >section{
+    width: 49.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(241,240,245);
 }
